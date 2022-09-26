@@ -79,9 +79,72 @@ body {
 
 /* CONTENT */
 
+.innehåll {
+    display: flex;
+    flex-direction: row;
+    height: 681px;
+    width: 100%;
+    padding-left: 7em;
+    padding-right: 7em;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('https://images.unsplash.com/photo-1594768816441-1dd241ffaa67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+    background-size: cover;
+}
+
+.textRuta {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 10px;
+    align-content: flex-start;
+    align-items: center;
+    margin-right: 40px;
+    /* background-color: yellow; */
+}
+
+.textRuta h1 {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.textRuta p {
+    font-weight: 200;
+}
+
+.horseImage {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    padding: 10px;
+    align-content: center;
+    /* background-color: yellowgreen; */
+}
+.horseImage img{
+    position: relative;
+    height: auto;
+    width:30em;
+    border-radius: 1rem;
+}
+
 
 
 /* FOOTER */
+
+body {
+    position: relative;
+}
+body::after{
+    content:'';
+    display: block;
+    height: 225px;
+}
+
 footer {
     position: absolute;
     bottom:0;
